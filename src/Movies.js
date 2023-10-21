@@ -98,28 +98,6 @@ export default function Movies() {
       "extract": "Killian & the Comeback Kids is a 2020 American folk-rock musical film written and directed by Taylor A. Purdee. The film stars Purdee, John Donchak, Nathan Purdee, and Kassie DePaiva along with an ensemble cast that features Maddi Jane and Lee Grant. Killian & the Comeback Kids follows a mixed-race musician who finds himself back in his struggling rural hometown after graduating from an expensive university. The film's screenplay and original music have been preserved by The Academy of Motion Pictures Arts and Sciences' permanent archive."
       }
     };
-    const movie1 = {
-        movie1: {
-         "title": "Antebellum",
-         "year": 2020,
-         "cast": [
-         "Janelle Monáe",
-         "Eric Lange",
-         "Jena Malone",
-         "Jack Huston",
-         "Kiersey Clemons",
-         "Gabourey Sidibe"
-         ],
-         "genres": [
-         "Thriller"
-         ],
-         "href": "Antebellum_(film)",
-         "extract": "Antebellum is a 2020 American thriller film written and directed by Gerard Bush and Christopher Renz in their feature directorial debuts. The film stars Janelle Monáe, Eric Lange, Jena Malone, Jack Huston, Kiersey Clemons, and Gabourey Sidibe, and follows a 21st century African-American woman who wakes to find herself mysteriously in a Southern slave plantation from which she must escape.",
-         "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Antebellum_poster.jpeg",
-         "thumbnail_width": 259,
-         "thumbnail_height": 384
-         },
-       };
 
     // Convertir el objeto movies en un arreglo de valores
     const movieArray = Object.values(movies);
@@ -135,7 +113,6 @@ export default function Movies() {
 
     // Añadir elementos al principio del arreglo
     // movieArray.unshift(movie1);
-
 
     return (
         <div className='movie-container'>
