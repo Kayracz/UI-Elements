@@ -2,7 +2,7 @@ import Navbar from './components/navbar/Navbar';
 import Cards from './components/cards/Cards';
 import BarraDeHerramientas from './components/barradeherramientas/BarraDeHerramientas';
 import Reviews from './components/reviews/Reviews';
-import Movies from './Movies';
+import Movies from './components/movies/Movies';
 
 import './App.css';
 
