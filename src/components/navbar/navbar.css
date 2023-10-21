@@ -1,0 +1,32 @@
+  .navbar-content{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 12px;
+  }
+  .logo{
+    font-size: 30px;
+    font-weight: 900;
+    color: #414a5d;
+  }
+  .navbar-text{
+   display: inline-flex;
+   color: #111827;
+  }
+  .navbar-text p {
+    padding: 0px 17px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 832px) {
+    .navbar-text {
+        display: none; 
+    }
+    .menu-button {
+        display: block; 
+    }
+  }

@@ -1,0 +1,118 @@
+.review-content{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.customer-image{
+    width: 39px;
+    height: 41px;
+    border-radius: 50%;
+}
+.bar-list{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.bar-image{
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.text-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.review-container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 11px;
+}
+.for-review{
+    margin: 15px 0px;
+    border-bottom: 0.5px solid rgb(224, 226, 224);
+}
+.review-comment{
+   font-style: italic;
+   color: #6b6b6b;
+}
+.progress-container{
+    margin: 10px 0px;
+    width:100%;
+    background: #ededed;
+    border-radius: 13px;
+    border: 0.5px solid rgb(224, 226, 224);
+}
+.progress-bar{
+    background: blueviolet;
+    height: 15px;
+    border-radius: 13px;
+}
+.review-subtitle{
+    display: inline-flex;
+    align-items: center;
+}
+.review-text{
+    margin-left: 10px;
+}
+.progress{
+    display: inline-flex;
+    align-items: center;
+}
+.number{
+    margin-right:10px;
+}
+.percentage{
+    width: 20px;
+    margin-left:10px;
+}
+.customer-card{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 5px;
+    border: 0.5px solid rgb(224, 226, 224);
+    box-shadow: 1px 3px 8px #d7d5d5; 
+    max-width: 871px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.customer-reviews{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.customers-container{
+    border-radius: 5px;
+}
+.review-title{
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 923px) {
+    .review-subtitle{
+        display: inline-flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .review-text {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .customer-card{
+        flex-direction: column;
+        padding: 25px 50px;
+    }
+    .customer-reviews{
+        margin-bottom: 45px;
+    }
+}

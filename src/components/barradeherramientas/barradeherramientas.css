@@ -1,0 +1,60 @@
+.bar-container{
+    background: #ffffff;
+    padding: 45px 10px 80px;
+}
+.bar-module{
+    background: white;
+    max-width: 900px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px #d7d5d5;
+    margin: 0 auto;
+}
+.bar-list{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.bar-image img{
+    border-radius: 20%;
+    background-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.separator{
+    border-bottom: 0.5px solid rgb(224, 226, 224);
+}
+.text-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bar-title{
+    margin-bottom: 2px;
+}
+.purple{
+    background-color: blueviolet;
+}
+.pink {
+    background-color: rgb(226, 43, 226);
+}
+.green {
+    background-color: rgb(43, 226, 95);
+}
+.blue{
+    background-color: rgb(43, 134, 226);
+}
+.bar-list:hover{
+    background-color: rgb(249, 248, 249);
+}
+.searchbar{
+    padding: 15px;
+}
+.bar-list-module{
+    height: 200px; 
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+.bar-list-container {
+    max-height: 100%;
+}
+  
