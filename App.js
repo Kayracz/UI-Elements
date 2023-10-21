@@ -1,18 +1,19 @@
-import Navbar from './components/navbar/Navbar';
-import Cards from './components/cards/Cards';
-import BarraDeHerramientas from './components/barradeherramientas/BarraDeHerramientas';
-import Reviews from './components/reviews/Reviews';
-import Movies from './Movies';
-import './App.css';
+// import Navbar from './components/navbar/Navbar';
+// import Cards from './components/cards/Cards';
+// import BarraDeHerramientas from './components/barradeherramientas/BarraDeHerramientas';
+// import Reviews from './components/reviews/Reviews';
+// import Movies from './Movies';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> 
+      {/* <Navbar /> 
       <Cards /> 
       <BarraDeHerramientas /> 
       <Reviews />
-      <Movies />
+      <Movies /> */}
+      hola
     </div>
   );
 }
